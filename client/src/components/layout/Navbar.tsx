@@ -1,7 +1,6 @@
 import { useLocation } from 'react-router-dom'
 
 import { getTitleFromPath } from './nav'
-import { ColorModeToggle } from './ColorModeToggle'
 import { useAuth } from '@/context/AuthContext'
 
 export function Navbar() {
@@ -22,7 +21,6 @@ export function Navbar() {
 							<span className="tabular-nums font-semibold">{user.tokens}</span>
 						</div>
 					) : null}
-					<ColorModeToggle />
 				</div>
 			</div>
 		</header>
