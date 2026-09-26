@@ -46,7 +46,7 @@ Optional:
 
 ```env
 # Groq tuning
-GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_MODEL=openai/gpt-oss-20b
 GROQ_TIMEOUT_MS=60000
 
 # Cloudinary (if storing uploads in Cloudinary)

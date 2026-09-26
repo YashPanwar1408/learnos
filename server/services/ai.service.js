@@ -164,7 +164,7 @@ async function callGroq({ prompt, maxOut, outputFormat }) {
 	}
 	const fetchFn = getFetch()
 	const baseUrl = String(process.env.GROQ_BASE_URL || 'https://api.groq.com/openai/v1').replace(/\/+$/, '')
-	const model = String(process.env.GROQ_MODEL || 'llama-3.3-70b-versatile').trim()
+	const model = String(process.env.GROQ_MODEL || 'openai/gpt-oss-20b').trim()
 	const timeoutMs = parsePositiveInt(process.env.GROQ_TIMEOUT_MS, 60000)
 
 	const controller = new AbortController()
