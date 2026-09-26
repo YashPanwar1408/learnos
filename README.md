@@ -29,6 +29,10 @@ Traditional AI study tools mostly measure activity: documents opened, summaries 
 
 Numeric mastery is calculated by deterministic server-side logic. AI can diagnose reasoning and recommend pedagogy, but it cannot arbitrarily assign mastery scores.
 
+## UI Preview
+
+![LEARNOS UI preview](client/public/Ui.png)
+
 ## Product
 
 ### Student experience
